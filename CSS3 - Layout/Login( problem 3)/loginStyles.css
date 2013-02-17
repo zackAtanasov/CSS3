@@ -1,0 +1,81 @@
+body{
+	background: #3a3a3a;
+	color: #A4A4A4;
+	font: 13px Verdana,Arial,Helvetica,sans-serif;
+}
+p{
+	margin: 0;
+	padding: 0:;
+}
+article{
+	width:50%;
+	margin:auto;
+	bac
+}
+nav{
+	width: 650px;
+	height:68px;
+	background-image: url(shadow.jpg);
+	background-color: transparent;
+	background-position: bottom;
+	background-repeat:no-repeat;
+	background-size: 120%;
+	overflow: hidden;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+article header h1{
+	color: #fcd61d;
+	font-weight: normal;
+	font:28px Georgia,"Times New Roman",Times,serif;
+	margin-top:15px;
+}
+#mainText{
+	clear: both;
+	padding: 10px;
+	padding-top:0px;
+	margin:auto;
+	width:602px;
+}
+#inline{
+	color:#fefefe;
+}
+nav form img{
+	display: inline-block;
+	float: left;
+	margin-left: 8px;
+}
+nav form label{
+	font-family: Georgia,"Times New Roman",Times,serif;
+	font-size:20px;
+	font-weight:bold;
+	color:#fefefe;
+	display: inline-block;
+	float: left;
+	margin-top:13px;
+	margin-left:15px;
+}
+nav form input{
+	margin-top:15px;
+	display: inline-block;
+	float: left;
+	margin-left:15px;
+	padding:3px;
+}
+nav form input:nth-of-type(2), nav form input:nth-of-type(1){
+	margin-left:20px;
+	width: 135px;
+}
+#go{
+	background-image: url(gored.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	border-radius:12px;
+	border:1px solid white;
+	width:55px;
+	height:28px;
+	color:white;
+	font-size:110%;
+}
+

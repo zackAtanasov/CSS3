@@ -1,0 +1,21 @@
+body {
+	font-family: Arial;
+}
+#colHeadings, th{
+	background: #44b537;
+	border: 1px #c1bfa7 outset;
+	color: #edfefb;
+	font-weight: normal;
+}
+#promotionTable{
+	border-collapse: collapse;
+	border: 1px #c1bfa7 outset;
+	text-align: left;
+}
+#promotionTable td, th{
+	padding: 7px;
+	border-right: 1px #c1bfa7 outset;
+}
+.RowTan{
+	background: #ececda
+}

@@ -1,0 +1,38 @@
+@mixin thumbDimensions{
+	width: 200px;
+	height: 200px;
+}
+@mixin zoomDimensions{
+	width: 600px;
+	height: 600px;
+}
+ul{
+	li{
+		display:inline-block;
+		a{
+			img{
+				@include thumbDimensions;
+			}
+		}
+	}
+}
+ul{
+	li{
+		ul{
+			li{
+				a{
+					display: none;
+					&:target{
+						display:inline-block;
+					}
+					img{
+						position:absolute;
+						left:50px;
+						top:250px;
+						@include zoomDimensions;
+					}
+				}
+			}
+		}
+	}
+}

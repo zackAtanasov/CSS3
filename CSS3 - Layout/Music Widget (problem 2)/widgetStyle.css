@@ -1,0 +1,63 @@
+body{
+
+}
+.widget{
+	background: #eeeeee;
+	width: 436px;
+	padding-bottom:26px;
+	margin: auto;
+}
+#music{
+	margin-left:26px;
+	padding-top:17px;
+	font-weight: normal;
+	font-size: 16px;
+}
+.frame{
+	background: #ffffff;
+	width: 384px;
+	height: 129px;
+	margin: auto;
+	border: #999999 1px solid;
+	margin-top: 38px;
+}
+#concert, #quitarGirl, #ovations{
+	width: 130px;
+	height: 86px;
+	border: #979596 1px solid;
+	margin: 15px;
+	float:left;
+}
+#concert{
+	background-image: url(concert.png);
+}
+#quitarGirl{
+	background-image: url(quitarGirl.png);
+}
+#ovations{
+	background-image: url(ovations.png);
+}
+.listen{
+	width: 73px;
+	height: 25px;
+	background-image: url("listen.png");
+	float:left;
+	margin-top: 5px;
+	margin-left: 77px;
+}
+.addButton{
+	width: 60px;
+	height: 25px;
+	background-image: url("add.png");
+	float:left;
+	margin-top: 5px;
+	margin-left: 3px;
+}
+.text{
+	display: inline-block;
+	font-size:10pt;
+	width: 185px;
+	height: 65px;
+	float:left;
+	margin-top:15px;
+}

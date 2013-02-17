@@ -1,0 +1,28 @@
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+a:hover{
+	text-decoration: underline;
+}
+.accordion ul ul li{
+	color:grey;
+}
+.accordion ul ul ul li{
+	color:red;
+}
+.accordion ul ul{
+	display: none;
+}
+.accordion ul li:hover > ul{
+	display:block;
+}
+.accordion ul ul ul{
+	display: none;
+}
+.accordion ul ul li:hover > ul{
+	display:block;
+}

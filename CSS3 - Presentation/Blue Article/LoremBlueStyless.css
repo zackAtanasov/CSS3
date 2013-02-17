@@ -1,0 +1,22 @@
+@font-face {
+	font-family: consolas;
+	src: url('consolas.ttf');
+
+}
+@font-face {
+	font-family: edwardian;
+	src: url('edwardian.ttf');
+	
+}
+.fancyFirstLetter{
+	color: #0094ff;
+	font-family:consolas;
+} 
+.fancyFirstLetter:first-line{
+	font-weight: bold;
+}
+.fancyFirstLetter:first-letter{
+	font-size: 45px;
+	font-family: edwardian;
+
+}

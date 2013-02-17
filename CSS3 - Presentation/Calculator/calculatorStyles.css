@@ -1,0 +1,86 @@
+.OuterFrame{
+	width:422px;
+	height:388px;
+	border: transparent;
+	margin:auto;
+	background-image: url("calculator.png");
+	border-radius:5px;
+	background-position: top,left;
+}
+.ViewEditOuter{
+	width: 409px;
+	height: 352px;
+	border: transparent;
+	margin:auto;
+	margin-bottom: 0px;
+	margin-top:30px;
+}
+.ViewEditPanel{
+	width: 408px;
+	height: 19px;
+	border: black 1px solid;
+}
+.TypeField{
+	width: 384px;
+	height: 50px;
+	border: black 1px solid;
+	margin:auto;
+	margin-top:11px;
+}
+.BinnaryField{
+	width: 384px;
+	height: 60px;
+	border: black 1px solid;
+	margin:auto;
+	margin-top:5px;
+}
+.HecDec{
+	width: 71px;
+	height: 89px;
+	border: black 1px solid;
+	margin-top: 5px;
+	margin-right:12px;
+	float: right;
+}
+.QwordDword{
+	width: 71px;
+	height: 89px;
+	margin-top: 5px;
+	border: black 1px solid;
+	margin-right:12px;
+	float: right;
+}
+.smallCells{
+	display: inline-block;
+	width: 32px;
+	height: 26px;
+	border: black 1px solid;
+	
+}
+.table{
+	border:1px solid red;
+	width:295px;
+	display: inline-block;
+	float: right;
+	margin-right:12px;
+}
+
+#lastRow, .row{
+	border: red 1px solid;
+	position: relative;
+	width:295px;
+	height:26px;
+	margin-top:4px;
+}
+#buttonEquals{
+	height: 59px;
+	display: inline-block;
+	position: absolute;
+	top:-33px;
+	right: 0px;
+}
+
+#buttonZero{
+	width: 70px;
+}
+

@@ -1,0 +1,1 @@
+These are my homework project assigments from the CSS3 class I took in Teleric Software Academy.

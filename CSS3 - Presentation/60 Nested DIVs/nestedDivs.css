@@ -1,0 +1,23 @@
+/*.mostInner{
+	border: 2px red solid;
+	width: 90%;
+	height:92%;
+	border-radius: 80px;
+	background: black;
+}
+
+.outer{
+	width: 99%;
+	height: 50px;
+}*/
+body {
+    width: 1000px;
+}
+
+div {
+    background-color: black;
+    border: 1px solid red;
+    border-radius: 100px;
+    padding-right: 15px;
+}
+

@@ -1,0 +1,43 @@
+body{
+	font-family: Arial;
+}
+#ticket {
+	text-align: left;
+	background: #666666;
+}
+#ticket th{
+	font-size: 16pt;
+	font-weight:100;
+	color: #b1b2b5;
+}
+#ticket td, th {
+	padding: 8px;
+}
+.IdFields{
+	font-style: italic;
+	color: #f8fffa;
+}
+.IdContentGray, #ticket th{
+	color: #b1b2b5;	
+}
+#noActiveSupport{
+	color: #FF0000;
+	font-weight: bold;
+}
+.IdContentYellow{
+	color: #dbd4a9;
+}
+#notAnswered{
+	color: #d36837;
+	font-weight: bold;
+}
+#circle{
+	background: #6ab480;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%
+}
+#circleWrapper{
+	float: left;
+	padding-right: 5px;
+}

@@ -1,0 +1,42 @@
+body{
+	background: #a9a9a9;
+	font-size:11pt;
+}
+h1{
+	color: #fafad2;
+	font-weight: bold;
+	font-size: 17pt;
+}
+#firstHeading{
+	text-align: center;
+	font-size: 19pt;
+
+}
+nav{
+	text-align: center;
+}
+nav a:link{
+	color: #ffffff;
+	text-decoration: none;
+}
+.current{
+	background: #d3d3d3;
+}
+nav ul{
+	list-style: none
+}
+#lastMenu{
+	text-decoration: underline;
+
+}
+.PostedbyLink:link{
+	text-decoration: none;
+	color: #000000;
+}
+footer{
+	font-size: 10pt;
+}
+#telerikFooter{
+	text-align: center;
+	font-size: 11pt;
+}

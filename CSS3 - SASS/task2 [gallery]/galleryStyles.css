@@ -1,0 +1,26 @@
+/* line 10, Sass input folder/galleryStyles.scss */
+ul li {
+  display: inline-block;
+}
+/* line 13, Sass input folder/galleryStyles.scss */
+ul li a img {
+  width: 200px;
+  height: 200px;
+}
+
+/* line 23, Sass input folder/galleryStyles.scss */
+ul li ul li a {
+  display: none;
+}
+/* line 25, Sass input folder/galleryStyles.scss */
+ul li ul li a:target {
+  display: inline-block;
+}
+/* line 28, Sass input folder/galleryStyles.scss */
+ul li ul li a img {
+  position: absolute;
+  left: 50px;
+  top: 250px;
+  width: 600px;
+  height: 600px;
+}
